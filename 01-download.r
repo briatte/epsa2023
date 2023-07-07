@@ -42,7 +42,8 @@ tz3$clickElement()
 
 # download sessions and abstracts -----------------------------------------
 
-for (i in sample(p)) {
+p <- sample(p)
+for (i in rev(p)) {
 
   f <- str_c("html/sessions/session_", str_extract(i, "\\d+$"), ".html")
   if (!fs::file_exists(f)) {
@@ -56,7 +57,7 @@ for (i in sample(p)) {
   }
 
   h <- read_html(f)
-  cat(fs::path_file(f), ":",
+  cat(which(p == i), fs::path_file(f), ":",
       html_text(html_nodes(h, "h1.mb-2")), # sometime empty (e.g. receptions)
       str_trunc(html_text(html_nodes(h, "h1.mt-4")), 40), "\n")
 
@@ -86,7 +87,7 @@ for (i in sample(p)) {
     }
 
     h <- read_html(f)
-    cat("  ", fs::path_file(f), ":",
+    cat("  ", str_pad(fs::path_file(f), 18, side = "right"), ":",
         # never empty, but varies without matching session id?
         html_text(html_nodes(h, "h2.mb-1")),
         str_trunc(html_text(html_nodes(h, "h1.my-5")), 40), "\n")
@@ -94,5 +95,10 @@ for (i in sample(p)) {
   }
 
 }
+
+cat(
+  length(fs::dir_ls("html/sessions", glob = "*.html")), "sessions,",
+  length(fs::dir_ls("html/abstracts", glob = "*.html")), "abstracts.\n"
+)
 
 # kthxbye
