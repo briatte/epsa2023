@@ -3,6 +3,7 @@ library(rvest)
 library(tidyverse)
 
 fs::dir_create("html")
+fs::dir_create("html/authors")
 fs::dir_create("html/abstracts")
 fs::dir_create("html/sessions")
 
@@ -23,9 +24,8 @@ dr <- rsDriver(browser = "firefox",
 
 rd <- dr[["client"]]
 
-# display random page
-i <- sample(p, 1)
-rd$navigate(i)
+# display authors' list (returns information used in next section)
+rd$navigate("https://virtual.oxfordabstracts.com/#/event/3738/people")
 Sys.sleep(3)
 
 # click time zone menu list
@@ -40,6 +40,43 @@ tz2$clickElement()
 tz3 <- rd$findElement(using = "css selector", "button.inline-flex")
 tz3$clickElement()
 
+# download authors --------------------------------------------------------
+
+# find last page
+n <- rd$getPageSource()[[1]] %>%
+  read_html() %>%
+  html_nodes(xpath = "//a[contains(@href, '?page=')]") %>%
+  html_attr("href") %>%
+  sort() %>%
+  last() %>%
+  str_extract("\\d+$")
+
+# sanity check (since this sometimes returns NA instead of 95...)
+stopifnot(!is.na(n))
+
+cat("Downloading authors listing,", n, "pages\n")
+for (i in as.integer(n):1) {
+
+  f <- str_c("html/authors/authors_", i, ".html")
+  if (!fs::file_exists(f)) {
+
+    "https://virtual.oxfordabstracts.com/#/event/3738/people?page=" %>%
+      str_c(., i) %>%
+      rd$navigate()
+
+    Sys.sleep(2) # very much required to avoid download empty lists
+
+    rd$getPageSource()[[1]] %>%
+      readr::write_lines(f)
+
+    if (!i %% 10)
+      cat(".")
+
+  }
+
+}
+
+stop('auth')
 # download sessions and abstracts -----------------------------------------
 
 p <- sample(p)
@@ -97,8 +134,9 @@ for (i in rev(p)) {
 }
 
 cat(
-  length(fs::dir_ls("html/sessions", glob = "*.html")), "sessions,",
-  length(fs::dir_ls("html/abstracts", glob = "*.html")), "abstracts.\n"
+  length(fs::dir_ls("html/authors")), "author pages,",
+  length(fs::dir_ls("html/sessions")), "sessions,",
+  length(fs::dir_ls("html/abstracts")), "abstracts.\n"
 )
 
 # kthxbye
