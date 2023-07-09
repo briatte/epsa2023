@@ -3,8 +3,8 @@ library(rvest)
 library(tidyverse)
 
 fs::dir_create("html")
-fs::dir_create("html/authors") # all participants, really
 fs::dir_create("html/abstracts")
+fs::dir_create("html/participants")
 fs::dir_create("html/sessions")
 
 # all session ids (main programme page manually downloaded)
@@ -24,7 +24,7 @@ dr <- rsDriver(browser = "firefox",
 
 rd <- dr[["client"]]
 
-# display authors' list (returns information used in next section)
+# display participants list (returns information used in next section)
 rd$navigate("https://virtual.oxfordabstracts.com/#/event/3738/people")
 Sys.sleep(3)
 
@@ -40,7 +40,7 @@ tz2$clickElement()
 tz3 <- rd$findElement(using = "css selector", "button.inline-flex")
 tz3$clickElement()
 
-# download authors --------------------------------------------------------
+# download participants ---------------------------------------------------
 
 # find last page
 n <- rd$getPageSource()[[1]] %>%
@@ -54,10 +54,10 @@ n <- rd$getPageSource()[[1]] %>%
 # sanity check (since this sometimes returns NA instead of 95...)
 stopifnot(!is.na(n))
 
-cat("Downloading authors listing,", n, "pages\n")
+cat("Downloading participants listing,", n, "pages\n")
 for (i in as.integer(n):1) {
 
-  f <- str_c("html/authors/authors_", i, ".html")
+  f <- str_c("html/participants/participants_", i, ".html")
   if (!fs::file_exists(f)) {
 
     "https://virtual.oxfordabstracts.com/#/event/3738/people?page=" %>%
@@ -76,7 +76,6 @@ for (i in as.integer(n):1) {
 
 }
 
-stop('auth')
 # download sessions and abstracts -----------------------------------------
 
 p <- sample(p)
@@ -134,7 +133,7 @@ for (i in rev(p)) {
 }
 
 cat(
-  length(fs::dir_ls("html/authors")), "author pages,",
+  length(fs::dir_ls("html/participants")), "participant pages,",
   length(fs::dir_ls("html/sessions")), "sessions,",
   length(fs::dir_ls("html/abstracts")), "abstracts.\n"
 )

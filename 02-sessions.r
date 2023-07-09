@@ -122,7 +122,8 @@ filter(s, !is.na(discussant), is.na(discussant_affiliation)) %>%
   select(session_id, contains("discussant")) %>%
   distinct()
 
-# ... impute them from abstracts, when the individuals also authored a paper?
+# ... but that's fine, since we get affiliations from parsing the participants
+#     pages in `04-participants` instead
 
 # n = 0 session with multiple chairs
 group_by(s, session_id) %>%

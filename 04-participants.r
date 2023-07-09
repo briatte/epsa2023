@@ -3,19 +3,19 @@ library(rvest)
 
 fs::dir_create("data")
 
-f <- fs::dir_ls("html/authors") # all participants, really (see below)
+f <- fs::dir_ls("html/participants")
 
-# NOTE -- we get to parse the authors pages in three different ways, to get the
-# three roles we are interested in (presenter, chair, discussant), and then
-# assemble the result in a single dataset; this catches everyone, and produces
-# a single affiliation per participant, including those who were only chairs or
-# participants, e.g. Sergio Acenso
+# NOTE -- we get to parse the participant pages in three different ways, to get
+# the three roles we are interested in (presenter, chair, discussant), and then
+# assemble the result in a single dataset; this catches everyone and produces a
+# single affiliation per participant, including those who were only chairs or
+# discussants, e.g. Sergio Acenso
 
 au <- tibble::tibble() # authors (presenters)
 ch <- tibble::tibble() # chairs
 di <- tibble::tibble() # discussants
 
-cat("Parsing", length(f), "author pages...\n")
+cat("Parsing", length(f), "participant pages...\n")
 for (i in f) {
 
   h <- read_html(i)
