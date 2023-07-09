@@ -1,5 +1,7 @@
 # code recycled from `epsa2019/08-create-pids.r`, with almost no changes,
-# although it might be a good idea to improve how hashes are produced?
+# although it might be a good idea to improve how hashes are produced, and
+# certainly a good idea to make how they are merged much more secure
+# TODO: see above
 
 library(tidyverse)
 
