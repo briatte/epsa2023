@@ -12,7 +12,7 @@ source("01-download.r")
 
 source("02-sessions.r")
 source("03-abstracts.r")
-source("04-authors.r")
+source("04-participants.r")
 
 # wrangling ---------------------------------------------------------------
 

@@ -3,7 +3,7 @@ library(rvest)
 library(tidyverse)
 
 fs::dir_create("html")
-fs::dir_create("html/authors")
+fs::dir_create("html/authors") # all participants, really
 fs::dir_create("html/abstracts")
 fs::dir_create("html/sessions")
 

@@ -3,7 +3,7 @@ library(rvest)
 
 fs::dir_create("data")
 
-f <- fs::dir_ls("html/authors")
+f <- fs::dir_ls("html/authors") # all participants, really (see below)
 
 # NOTE -- we get to parse the authors pages in three different ways, to get the
 # three roles we are interested in (presenter, chair, discussant), and then
