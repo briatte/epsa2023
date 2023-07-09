@@ -1,7 +1,14 @@
+# adapted from an earlier year, but we do things differently regarding chairs
+# and discussants, given the extra work in the previous script to extract them
+# with 'unified' affiliations
+
 library(tidyverse)
 
-d <- read_tsv("data/sessions.tsv", col_types = "ccccccccc") %>%
-  full_join(read_tsv("data/authors.tsv", col_types = "ccc"), by = "abstract_id")
+p <- readr::read_tsv("data/participants.tsv", col_types = "ccccc")
+
+d <- readr::read_tsv("data/sessions.tsv", col_types = "ccccccccc") %>%
+  full_join(select(filter(p, role == "p"), author, affiliation, abstract_id),
+            by = "abstract_id")
 
 # sanity checks: session identifiers are never missing
 stopifnot(!is.na(d$session_id))
@@ -25,23 +32,22 @@ n_distinct(d$session_id[ is.na(d$discussant) ])
 
 # assemble participants ---------------------------------------------------
 
-# participants
+# sanity check: no missing values in 'authors' (participants, really)
+stopifnot(!is.na(p$author))
+
+# NOTE -- no need for `distinct` below, c/d roles do not repeat within sessions
 p <- bind_rows(
   # chairs
-  select(d, session_id, starts_with("chair")) %>%
-    distinct() %>%
-    rename(full_name = chair, affiliation = chair_affiliation) %>%
-    filter(!is.na(full_name)) %>%
-    add_column(role = "c")
+  filter(p, role == "c") %>%
+    select(session_id, full_name = author, affiliation, role) %>%
+    arrange(full_name, session_id)
   ,
   # discussants
-  select(d, session_id, starts_with("discussant")) %>%
-    distinct() %>%
-    rename(full_name = discussant, affiliation = discussant_affiliation) %>%
-    filter(!is.na(full_name)) %>%
-    add_column(role = "d")
+  filter(p, role == "d") %>%
+    select(session_id, full_name = author, affiliation, role) %>%
+    arrange(full_name, session_id)
   ,
-  # authors
+  # authors (presenters)
   select(d, session_id, full_name = author, affiliation, abstract_id) %>%
     # next lines not required: authors do not repeat and are never missing
     # distinct() %>%

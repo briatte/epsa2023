@@ -30,6 +30,9 @@ for (i in f) {
   h <- read_html(i)
 
   # sessions (1-2 rows, depending on discussants)
+  # NOTE -- we collect chairs and discussants, but collect that information
+  # again in `04-authors.r` and later use that source for reasons explained in
+  # that script (unified affiliations)
   d <- tibble::tibble(
     # numeric id of the session URL (URL-based)
     # different from internal id, which is `html_nodes(h, "header h2")`
