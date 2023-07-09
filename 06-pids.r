@@ -58,8 +58,8 @@ stopifnot(!duplicated(p$text))
 stopifnot(!duplicated(p$hash))
 
 # add hashes to master data
-d <- select(p, full_name, pid = hash) %>%
-  left_join(d, ., by = "full_name") %>%
+d <- select(p, full_name, affiliation, pid = hash) %>%
+  left_join(d, ., by = c("full_name", "affiliation"), relationship = "many-to-one") %>%
   relocate(pid, .before = full_name)
 
 # sanity check: no missing pid
