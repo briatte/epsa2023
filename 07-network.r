@@ -1,4 +1,13 @@
-# SUPER DRAFT, network constructor probably wrong
+library(tidyverse)
+library(ggraph)
+library(tidygraph)
+
+# [DRAFT] quick and dirty overview of main component -- we do things slightly
+# differently than we did with `epsa2022`, in two ways: (1) we aggregate the
+# weights at the end of the chain producing the edge list `e`, and (2) we show
+# betweenness centrality instead of degree centrality
+
+# very very draft, but sufficient to show that the program dataset works fine
 
 d <- readr::read_tsv("data/program.tsv")
 
@@ -16,7 +25,7 @@ e <- filter(d, role == "p") %>%
   group_by(i, j) %>%
   summarise(w = sum(w))
 
-# weights range 0.0001-3
+# weights range 0.0625-5.3333
 table(e$w)
 
 # we go for betweenness centrality in this one, nicer results
