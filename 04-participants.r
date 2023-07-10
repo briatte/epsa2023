@@ -143,15 +143,55 @@ d$affiliation[ d$author == "Sergio Ascencio" ] <- "University of Essex, United K
 d$author[ d$author == "Staffan Kumlim" ] <- "Staffan Kumlin" # typo
 d$affiliation[ d$author == "Staffan Kumlin" ] <- "University of Oslo, Norway"
 
-# result:
-filter(d, role == "c", is.na(affiliation)) # n = 8 missing
-filter(d, role == "d", is.na(affiliation)) # n = 15 missing
+# ... and after a few additional searches
+
+# ... last missing chairs
+d$author[ d$author == "Patrick Kuhn" ] <- "Patrick M Kuhn"
+d$affiliation[ d$author == "Patrick M Kuhn" ] <- "Durham University, United Kingdom"
+d$affiliation[ d$author == "Jan Pierskalla" ] <- "Ohio State University, USA"
+d$author[ d$author == "Alex Hartman" ] <- "Alexandra Hartman"
+d$affiliation[ d$author == "Alexandra Hartman" ] <- "University College London, United Kingdom"
+# full name actually Babak Rezaeedaryakenari
+d$affiliation[ d$author == "Babak Daryakenari" ] <- "Leiden University, Netherlands"
+d$affiliation[ d$author == "Dan Honig" ] <- "University College London, United Kingdom"
+d$author[ d$author == "Jon Kastellec" ] <- "Jonathan Kastellec" # also uses 'John'
+d$affiliation[ d$author == "Jonathan Kastellec" ] <- "Princeton University, USA"
+# d$author[ d$author == "José Cheibub" ] <- "José Antonio Cheibub"
+d$affiliation[ d$author == "José Cheibub" ] <- "Texas A&M University, USA"
+# d$author[ d$author == "Steve Wilkinson" ] <- "Steven I Wilkinson"
+d$affiliation[ d$author == "Steve Wilkinson" ] <- "Yale University, USA"
+
+# ... last missing discussants:
+# uses shorter version for papers
+d$author[ d$author == "Brendan Skip Mark" ] <- "Skip Mark"
+d$affiliation[ d$author == "Skip Mark" ] <- "University of Rhode Island, USA"
+d$author[ d$author == "Chris Fariss" ] <- "Christopher Fariss"
+d$affiliation[ d$author == "Christopher Fariss" ] <- "University of Michigan, USA"
+d$affiliation[ d$author == "Elisa D'Amico" ] <- "Loyola University Chicago, USA"
+# d$author[ d$author == "Jamie Gruffydd-Jones" ] <- "Jamie J Gruffydd-Jones"
+d$affiliation[ d$author == "Jamie Gruffydd-Jones" ] <- "University of Kent, United Kingdom"
+d$author[ d$author == "Jan Sudduth" ] <- "Jun Sudduth"
+d$affiliation[ d$author == "Jun Sudduth" ] <- "University of Strathclyde, United Kingdom"
+# d$author[ d$author == "Kristy Pathakis" ] <- "Kristy M Pathakis"
+d$affiliation[ d$author == "Kristy Pathakis" ] <- "Texas A&M University, USA"
+d$affiliation[ d$author == "Miku Matsunaga" ] <- "University of Tokyo, Japan"
+d$author[ d$author == "Olga Gasparayan" ] <- "Olga Gasparyan"
+d$affiliation[ d$author == "Olga Gasparyan" ] <- "Hertie School, Germany"
+d$affiliation[ d$author == "Shiran Victoria Shen" ] <- "Stanford University, USA"
+d$affiliation[ d$author == "Steven Ballantyne" ] <- "European University Institute, Italy"
+d$affiliation[ d$author == "Tugba Bozcaga" ] <- "King's College London, United Kingdom"
+
+stopifnot(!is.na(d$affiliation))
+
+# tiny amount of further cleaning
+d$affiliation <- str_replace_all(d$affiliation, ",,", ",") %>%
+  str_squish()
 
 # multiple affiliations are probably those with a '.' in them -- although many
 # in those below are just two ways of writing the same single affiliation
 d$affiliation %>%
   unique() %>%
-  # remove false positives, e.g. "St. Louis" or "St. Gallen"
+  # remove some of the false positives, e.g. "St. Louis" or "St. Gallen"
   str_replace_all(" St\\. ", " St ") %>%
   str_subset("\\.") %>%
   sort()
