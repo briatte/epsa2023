@@ -1,199 +1,197 @@
-"author"	"affiliation"	"affiliation_fix"
-"Achim Goerres"	"University of Duisburg-Essen, Germany. Universität Duisburg-Essen, Germany"	"University of Duisburg-Essen, Germany"
-"Adrian del Rio"	"Berlin Social Science Centre, Germany. Berlin Social Science Centre, Germany, Germany"	"Berlin Social Science Centre, Germany"
-"Agni Poullikka"	"City, University of London, United Kingdom. City University of London, United Kingdom"	"City, University of London, United Kingdom"
-"Albert Falcó-Gimeno"	"Universitat de Barcelona, Spain. University of Barcelona, Spain"	"University of Barcelona, Spain"
-"Albert Solé-Ollé"	"U. of Barcelona, Spain"	"University of Barcelona, Spain"
-"Alessandro Del Ponte"	"University of Alabama, USA. The University of Alabama, USA"	"University of Alabama, USA"
-"Alexander Kuo"	"University of Oxford, United Kingdom. Oxford Unviersity, United Kingdom. Oxford University, United Kingdom"	"University of Oxford, United Kingdom"
-"Alexander Wuttke"	"Ludwig Maximilian University of Munich, Germany. University of Munich, Germany"	"Ludwig Maximilian University of Munich, Germany && University of Munich, Germany"
-"Alexandra Guisinger"	"Temple University, College of Liberal Arts, USA. Temple University, USA"	"Temple University, USA"
-"Andrea Ceron"	"Dipartimento Scienze Sociali e Politiche - Università degli Studi di Milano, Italy. Università degli Studi di Milano, Italy"	"Università degli Studi di Milano, Italy"
-"Andrea Ruggeri"	"andrea.ruggeri@politics.ox.ac.uk, United Kingdom"	"University of Oxford, United Kingdom"
-"Andreas Kotsadam"	"Frish Centre, Norway. Frisch Centre, Norway"	"Frisch Centre, Norway"
-"Andrew Klassen"	"Humansurveys.org, USA"	"Humansurveys.org, USA"
-"Anja Neundorf"	"University of Glasgow, United Kingdom. Glasgow, United Kingdom"	"University of Glasgow, United Kingdom"
-"Anne Degrave"	"Institute for Advanced Study in Toulouse, France. Institude for Advanced Study in Toulouse, France"	"Institute for Advanced Study in Toulouse, France"
-"Anne Rasmussen"	"Kings College, United Kingdom. Kings College London, United Kingdom"	"Kings College London, United Kingdom"
-"Antonia Lang"	"Goethe University Frankfurt/Main, Germany. Goethe University Frankfurt am Main, Germany"	"Goethe University Frankfurt am Main, Germany"
-"Aparna Ravi"	"University College London, USA. University College London, United Kingdom"	"University College London, United Kingdom"
-"Asli Unan"	"Humboldt University of Berlin, Germany. Humboldt University, Germany. Humboldt University Berlin, Germany"	"Humboldt University Berlin, Germany"
-"Aykut Ozturk"	"Glasgow, United Kingdom. University of Glasgow, United Kingdom"	"University of Glasgow, United Kingdom"
-"Beltran Alejandro"	"The Alan Turing Institute, United Kingdom. Alan Turing Institute, United Kingdom"	"Alan Turing Institute, United Kingdom"
-"Björn Bremer"	"Max Planck Institute for the Study of Societies, Germany. Max Planck, Germany"	"Max Planck Institute for the Study of Societies, Germany"
-"Boram Lee"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom"
-"Bradley Smith"	"Vanderbilt University, USA. Vanderbilt, USA"	"Vanderbilt University, USA"
-"Carl Henrik Knutsen"	"University of Oslo, Norway. University of Oslo (UiO), Norway"	"University of Oslo, Norway"
-"Carlos Mendez"	"Strathclyde University, United Kingdom. University of Strathclyde, United Kingdom"	"University of Strathclyde, United Kingdom"
-"Carol Galais"	"Autonomous University of Barcelona, Spain. Universitat Autònoma de Barcelona, Spain"	"Universitat Autònoma de Barcelona, Spain"
-"Catherine Hafer"	"NYU, USA. New York University, USA"	"New York University, USA"
-"Christian Freudlsperger"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zürich, Switzerland"
-"Christopher Anderson"	"LSE, United Kingdom. London School of Economics and Political Science, United Kingdom"	"London School of Economics and Political Science, United Kingdom"
-"Damien Bol"	"King's College London, United Kingdom. Kings College London, United Kingdom"	"Kings College London, United Kingdom"
-"Daniel Favre"	"U. of Barcelona, Spain"	"Universitat Autònoma de Barcelona, Spain"
-"Daniel Saldivia Gonzatti"	"WZB Berlin Social Science Center, Germany. WZB Berlin, Germany"	"WZB Berlin Social Science Center, Germany"
-"Darrell Driver"	"U.S. Army War College, USA"	"U.S. Army War College, USA"
-"David Beck"	"Institute for Political Science, University of Bamberg, Germany. University of Bamberg, Germany"	"Institute for Political Science, University of Bamberg, Germany"
-"David Schweizer"	"University of Mannheim, Germany. University of Mannheim, Georgia"	"University of Mannheim, Germany"
-"Davide Morisi"	"Collegio Carlo Alberto, Italy. University of Southern Denmark, Denmark"	"Collegio Carlo Alberto, Italy && University of Southern Denmark, Denmark"
-"Davide Vittori"	"Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium"	"Université Libre de Bruxelles, Belgium"
-"Denisa Kostovicova"	"LSE, United Kingdom. London School of Economics and Political Science, United Kingdom"	"London School of Economics and Political Science, United Kingdom"
-"Despina Alexiadou"	"Strathclyde, United Kingdom. University of Strathclyde, United Kingdom"	"University of Strathclyde, United Kingdom"
-"Diane Bolet"	"University of Zurich, Switzerland. University of Zurich, Swaziland"	"University of Zurich, Switzerland"
-"Dominik Hangartner"	"ETH, Switzerland. ETH Zürich, Switzerland. ETH-Zurich, Switzerland. ETH Zurich, Switzerland. ETZ Zurich, Switzerland"	"ETH Zürich, Switzerland"
-"Ebru Ece Özbey"	"IMPRS-SCE, Germany. Max-Planck-Institut für Gesellschaftsforschung, Germany"	"IMPRS-SCE, Germany && Max-Planck-Institut für Gesellschaftsforschung, Germany"
-"Elias Dinas"	"European University Institute, Italy. EUI, Italy"	"European University Institute, Italy"
-"Eline de Rooij"	"Simon Fraser University, Canada. Canada"	"Simon Fraser University, Canada"
-"Elliott Green"	"London School of Economics, United Kingdom. LSE, United Kingdom"	"London School of Economics and Political Science, United Kingdom"
-"Emiliano Grossman"	"Sciences Po, France. Sciences Po / CEE, France"	"Sciences Po / CEE, France"
-"Emilien Paulis"	"Université du Luxembourg, Luxembourg. Université Libre de Bruxelles, Belgium"	"Université du Luxembourg, Luxembourg && Université Libre de Bruxelles, Belgium"
-"Emily Frank"	"Hertie School, Germany. Berlin Institute for Empirical Integration and Migration Research (BIM), Humboldt University of Berlin, Germany. Humboldt University of Berlin, Germany"	"Hertie School, Germany && Berlin Institute for Empirical Integration and Migration Research (BIM), Humboldt University of Berlin, Germany"
-"Enrique Hernández"	"Autonomous University of Barcelona, Spain. Universitat Autònoma de Barcelona, Spain. Universitat Autonoma de Barcelona, Spain"	"Universitat Autònoma de Barcelona, Spain"
-"Eri Bertsou"	"University of St Gallen, Switzerland. St Gallen, Switzerland. University of St.Gallen, Switzerland"	"University of St Gallen, Switzerland"
-"Erik Voeten"	"Georgetown, USA. Georgetown University, USA"	"Georgetown University, USA"
-"Erin York"	"Vanderbilt University, USA. Vanderbilt, USA"	"Vanderbilt University, USA"
-"Eva Anduiza"	"Universitat Autònoma de Barcelona, Spain. Universitat Autónoma de Barcelona, Spain"	"Universitat Autònoma de Barcelona, Spain"
-"Eva Wegner"	"Marburg University, Germany. Uni Marburg, Germany"	"Marburg University, Germany"
-"Fabio Angiolillo"	"University of Gothenburg, Sweden. Gothenburg University, Sweden"	"University of Gothenburg, Sweden"
-"Fabio Votta"	"University of Amsterdam, Netherlands. University of Amsterdam, Germany"	"University of Amsterdam, Netherlands"
-"Fedra Negri"	"Università degli Studi di Milano-Bicocca (UNIMIB), Italy. Università degli Studi di Milano - Bicocca, Italy"	"Università degli Studi di Milano - Bicocca, Italy"
-"Felicia Riethmüller"	"Department for Democracy Research, University of Goettingen, Germany. Institute for Democracy Research (IfDem), University of Göttingen, Germany. Department for Democracy Research (IfDem), University of Goettingen, Germany. University of Goettingen, Germany"	"Institute for Democracy Research (IfDem), University of Göttingen, Germany"
-"Felix Hartmann"	"HU Berlin, Germany. Humboldt University of Berlin, Germany"	"Humboldt University of Berlin, Germany"
-"Filip Milacic"	"Friedrich Ebert Foundation; Democracy Institute, CEU, Austria. Friedrich Ebert Foundation; Democracy Institute"	"Friedrich Ebert Foundation && Democracy Institute, CEU, Austria"
-"Florian Lichtin"	"ETH-Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zürich, Switzerland"
-"Francesc Amat"	"Universitat de Barcelona, Spain. University of Barcelona - IPERG, Spain. University of Barcelona, Spain"	"IPERG, Universitat Autònoma de Barcelona, Spain"
-"Franziska Quoß"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zürich, Switzerland"
-"Gabriele Spilker"	"Universität Konstanz, Germany. University of Konstanz, Germany"	"Universität Konstanz, Germany. University of Konstanz, Germany"
-"Gail McElroy"	"Trinity College, Dublin, Ireland. Trinity College Dublin, Ireland"	"Trinity College Dublin, Ireland"
-"Gary Marks"	"European University Institute, Italy. University of North Carolina at Chapel Hill, USA. University of North Carolina, USA"	"European University Institute, Italy && University of North Carolina at Chapel Hill, USA"
-"Gefjon Off"	"Gothenburg University, Department of Political Science, Sweden. Gothenburg University, Sweden"	"Gothenburg University, Department of Political Science, Sweden"
-"Gerald Schneider"	"University of Konstanz, Germany. Universit of Konstanz, Germany"	"University of Konstanz, Germany"
-"Giuliano Formisano"	"University of Oxford, United Kingdom. Oxford Internet Institute, United Kingdom"	"Oxford Internet Institute, University of Oxford, United Kingdom"
-"Gudlaug Olafsdottir"	"Uppsala University, Sweden. University of Uppsala, Sweden"	"Uppsala University, Sweden"
-"Guido Panzano"	"Université libre de Bruxelles (ULB), Belgium. Université libre de Bruxelles, Belgium. ULB, Belgium"	"Université Libre de Bruxelles, Belgium"
-"Guido Tiemann"	"Institute for Advanced Studies, Vienna, Austria. Institute for Advanced Studies, Austria. Institute for Advanced Studie. Institute for Advanced Studies"	"Institute for Advanced Studies, Vienna, Austria"
-"Guillem Rico"	"Universitat Autònoma de Barcelona, Spain. Universitat Autonoma de Barcelona, Spain"	"Universitat Autònoma de Barcelona, Spain"
-"Hauke Licht"	"University of Cologne, Germany. University of Cologne, Cologne Center for Comparative Politics, Germany"	"Cologne Center for Comparative Politics, University of Cologne, Germany"
-"Heike Klüver"	"HU Berlin, Germany. Humboldt-Universität zu Berlin, Germany. Humboldt University, Germany. Humboldt University of Berlin, Germany"	"Humboldt University of Berlin, Germany"
-"Ignacio Jurado"	"Universidad Carlos III de Madrid, Spain. University Carlos III- IC3JM, Spain. Carlos III University of Madrid, Spain"	"Universidad Carlos III de Madrid, Spain"
-"Indridi Indridason"	"Univ. of California, Riverside, USA. University of California Riverside, USA"	"University of California Riverside, USA"
-"Isabelle Guinaudeau"	"CEE, Sciences Po, France. Center of European Studies and Comparative Politics, Sciences Po, France. Sciences Po Bordeaux, France. Sciences Po, France"	"CEE, Sciences Po, France && Sciences Po Bordeaux, France"
-"Jacob Montgomery"	"Washington University in St Louis, USA. Washington University in Saint Louis, USA. Wasington University in Saint Louis, USA"	"Washington University in Saint Louis, USA"
-"James Morrison"	"London School of Economics & Political Science, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom"
-"Jan Freihardt"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zürich, Switzerland"
-"Jan Menzner"	"University of Mannheim, Germany. University of Mannhein, Germany"	"University of Mannheim, Germany"
-"Jan Schwalbach"	"GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany"	"GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany"
-"Janne Tukiainen"	"Turku University, Finland. University of Turku, Finland"	"University of Turku, Finland"
-"Jean-Benoit Pilet"	"Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium"	"Université Libre de Bruxelles, Belgium"
-"Jihed Ncib"	"University College, Dublin, Ireland. University College Dublin, Ireland"	"University College, Dublin, Ireland"
-"Joaquín Rozas-Bugueño"	"Universitat Pompeu Fabra, Spain. Universitat Pomepu Fabra, Spain"	"Universitat Pompeu Fabra, Spain"
-"Jona de Jong"	"European University Institute, Italy. European University Institute, Netherlands"	"European University Institute, Italy. European University Institute, Netherlands"
-"Jonne Kamphorst"	"European University Institute, Italy. European university institute, Italy"	"European University Institute, Italy. European university institute, Italy"
-"Josep Maria Comellas"	"Universitat Pompeu Fabra, Spain. Universitat Pompeu Fabra,, Spain"	"Universitat Pompeu Fabra, Spain. Universitat Pompeu Fabra,, Spain"
-"João Areal"	"University of Mannhein, Germany. University of Mannheim, Germany"	"University of Mannhein, Germany. University of Mannheim, Germany"
-"Ju Yeon Park"	"University of Essex, United Kingdom. Essex, United Kingdom"	"University of Essex, United Kingdom. Essex, United Kingdom"
-"Kasia Nalewajko"	"European University Institute, Italy. Universidad Carlos III de Madrid, Spain"	"European University Institute, Italy. Universidad Carlos III de Madrid, Spain"
-"Katharina Lawall"	"University of London/Royal Holloway, United Kingdom. Royal Holloway/University of London, United Kingdom"	"University of London/Royal Holloway, United Kingdom. Royal Holloway/University of London, United Kingdom"
-"Kevin Munger"	"Penn State, USA. Penn State,, USA"	"Penn State, USA. Penn State,, USA"
-"Konstantin Vössing"	"City, University of London, United Kingdom. City University of London, United Kingdom"	"City, University of London, United Kingdom. City University of London, United Kingdom"
-"Kristina Aleksandrovna Pedersen"	"University of Copenhagen, Department of Political Science, Denmark. University of Copenhagen, Denmark"	"University of Copenhagen, Department of Political Science, Denmark. University of Copenhagen, Denmark"
-"L. Constantin Wurthmann"	"GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany"	"GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany"
-"Lena Maria Huber"	"University of Vienna, Austria. MZES, University of Mannheim, Germany"	"University of Vienna, Austria. MZES, University of Mannheim, Germany"
-"Leonid Peisakhin"	"New York University - Abu Dhabi, UAE. NYU Abu Dhabi, UAE"	"New York University - Abu Dhabi, UAE. NYU Abu Dhabi, UAE"
-"Leticia Barbabela"	"Marburg University, Germany. Philipps-Universität Marburg, Germany"	"Marburg University, Germany. Philipps-Universität Marburg, Germany"
-"Liam Beiser-McGrath"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"
-"Liesbet Hooghe"	"European University Institute, Italy. University of North Carolina at Chapel Hill, USA. University of North Carolina, USA"	"European University Institute, Italy. University of North Carolina at Chapel Hill, USA. University of North Carolina, USA"
-"Lise Rakner"	"University of Bergen, Norway. Chr. Michelsens Institute, Norway"	"University of Bergen, Norway. Chr. Michelsens Institute, Norway"
-"Luca Versteegen"	"University of Gothenburg, Sweden. Gothenburg University, Sweden"	"University of Gothenburg, Sweden. Gothenburg University, Sweden"
-"Lukas Stoetzer"	"Humboldt University, Germany. University of Witten/Herdecke, Germany"	"Humboldt University, Germany. University of Witten/Herdecke, Germany"
-"Macarena Ares"	"University of Barcelona, Spain. Universitat de Barcelona, Spain"	"University of Barcelona, Spain. Universitat de Barcelona, Spain"
-"Mads Thau"	"Institute for Social Research Oslo, Norway. Institute for Social Research, Norway"	"Institute for Social Research Oslo, Norway. Institute for Social Research, Norway"
-"Marco Nicola Binetti"	"Center for Crisis Early Warning - Universität der Bundeswehr München, Germany. Universität der Bundeswehr München - CISS, Germany"	"Center for Crisis Early Warning - Universität der Bundeswehr München, Germany. Universität der Bundeswehr München - CISS, Germany"
-"Marco Pastor Mayo"	"University of Oxford, Spain. University of Barcelona, Spain"	"University of Oxford, Spain. University of Barcelona, Spain"
-"Mariana Carvalho"	"Brown University, USA. UCSD, USA"	"Brown University, USA. UCSD, USA"
-"Marine Casalis"	"ETH-Zurich, Switzerland. ETH Zurich, Switzerland"	"ETH-Zurich, Switzerland. ETH Zurich, Switzerland"
-"Marius Sältzer"	"Gesis Institute for the Social Sciences Mannheim, Germany. GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany"	"Gesis Institute for the Social Sciences Mannheim, Germany. GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany"
-"Mark Kayser"	"Hertie School, Germany. Hertie School, Berlin, Germany"	"Hertie School, Germany. Hertie School, Berlin, Germany"
-"Markus Kollberg"	"University College London (UCL), United Kingdom. University College London, United Kingdom"	"University College London (UCL), United Kingdom. University College London, United Kingdom"
-"Markus Tepe"	"Carl von Ossietzky Universität Oldenburg, Germany. University of Oldenburg, Germany"	"Carl von Ossietzky Universität Oldenburg, Germany. University of Oldenburg, Germany"
-"Marta Eidheim"	"University of Bergen, Norway. Univresity of Bergen, Norway"	"University of Bergen, Norway. Univresity of Bergen, Norway"
-"Martial Foucault"	"Sciences Po, France. Science Po Paris, France"	"Sciences Po, France. Science Po Paris, France"
-"Martin Elff"	"Zeppelin University, Germany. Zeppelin Universität, Germany"	"Zeppelin University, Germany. Zeppelin Universität, Germany"
-"Massimo Troncone"	"ETH, Switzerland. ETH Zurich, Switzerland"	"ETH, Switzerland. ETH Zurich, Switzerland"
-"Mathias Poertner"	"London School of Economics and Political Science, United Kingdom. LSE, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom. LSE, United Kingdom. London School of Economics, United Kingdom"
-"Matteo Gamalerio"	"U. of Barcelona, Spain"	"U. of Barcelona, Spain"
-"Matthias Haslberger"	"University of St Gallen, Switzerland. University of St Gallen, Switzerland"	"University of St Gallen, Switzerland. University of St Gallen, Switzerland"
-"Maurits Meijers"	"Radboud, Netherlands. Radboud University, Netherlands"	"Radboud, Netherlands. Radboud University, Netherlands"
-"Miceal Canavan"	"Aarhus, Denmark. Aarhus University, Denmark"	"Aarhus, Denmark. Aarhus University, Denmark"
-"Nadine O'Shea"	"Greifswald University, Germany. University of Greifswald, Germany"	"Greifswald University, Germany. University of Greifswald, Germany"
-"Niels Bjørn Grund Petersen"	"The Danish Center for Social Science Research / Aarhus University, Denmark. Danish Center for Social Science Research (VIVE), Denmark"	"The Danish Center for Social Science Research / Aarhus University, Denmark. Danish Center for Social Science Research (VIVE), Denmark"
-"Niloufer Siddiqui"	"U. Albany, USA"	"U. Albany, USA"
-"Nils Düpont"	"CRC 1342, University of Bremen, Germany. University of Bremen, Germany"	"CRC 1342, University of Bremen, Germany. University of Bremen, Germany"
-"Nils-Christian Bormann"	"Witten/Herdecke University, Germany. University of Witten/Herdecke, Germany"	"Witten/Herdecke University, Germany. University of Witten/Herdecke, Germany"
-"Noam Gidron"	"hebrew university of jerusalem, Israel. Hebrew University of Jerusalem, Israel"	"hebrew university of jerusalem, Israel. Hebrew University of Jerusalem, Israel"
-"Oguzhan Turkoglu"	"Hertie School, Germany. Hertie, Germany"	"Hertie School, Germany. Hertie, Germany"
-"Patrick Bayer"	"University of Strathclyde, United Kingdom. Strathclyde University, United Kingdom"	"University of Strathclyde, United Kingdom. Strathclyde University, United Kingdom"
-"Paul Thurner"	"LMU Munich, Germany. LMU Munich, Political Science, Germany"	"LMU Munich, Germany. LMU Munich, Political Science, Germany"
-"Pedro Riera"	"Charles III University of Madrid, Spain. University Carlos III of Madrid, Spain. University Carlos III, Spain"	"Charles III University of Madrid, Spain. University Carlos III of Madrid, Spain. University Carlos III, Spain"
-"Peter Dinesen"	"University College London, United Kingdom. University College London and University of Copenhagen, United Kingdom"	"University College London, United Kingdom. University College London and University of Copenhagen, United Kingdom"
-"Philipp Lutscher"	"University of Oslo (UiO), Norway. University of Oslo, Norway"	"University of Oslo (UiO), Norway. University of Oslo, Norway"
-"Philipp Lutz"	"Vrije Universiteit Amsterdam, Netherlands. VU University Amsterdam, Netherlands"	"Vrije Universiteit Amsterdam, Netherlands. VU University Amsterdam, Netherlands"
-"Pola Lehmann"	"WZB Berlin Social Science Center, Germany. WZB  Berlin Social Science Center, Germany"	"WZB Berlin Social Science Center, Germany. WZB  Berlin Social Science Center, Germany"
-"Raymond Duch"	"University of Oxford, United Kingdom. Nuffield College, University of Oxford, United Kingdom"	"University of Oxford, United Kingdom. Nuffield College, University of Oxford, United Kingdom"
-"Regina Goodnow"	"University of Wisconsin - La Crosse, USA. University of Wisconsin, USA"	"University of Wisconsin - La Crosse, USA. University of Wisconsin, USA"
-"Ricardo Massa"	"National Laboratory of Public Policy, Centro de Investigacion y Docencia Economicas (CIDE)., Mexico"	"National Laboratory of Public Policy, Centro de Investigacion y Docencia Economicas (CIDE)., Mexico"
-"Riccardo Di Leo"	"Universidad Carlos III and Carlos III-Juan March Institute, Spain. Universidad Carlos III, Spain"	"Universidad Carlos III and Carlos III-Juan March Institute, Spain. Universidad Carlos III, Spain"
-"Richard Traunmüller"	"University of Mannheim, Germany. University of Mannhein, Germany"	"University of Mannheim, Germany. University of Mannhein, Germany"
-"Robert Huber"	"University of Salzburg, Austria. University of Reading, United Kingdom"	"University of Salzburg, Austria. University of Reading, United Kingdom"
-"Robert Walker"	"Atkinson Graduate School of Management, WIllamette University, USA. Willamette University, USA"	"Atkinson Graduate School of Management, WIllamette University, USA. Willamette University, USA"
-"Roberto Valli"	"ETH Zürich, Switzerland. ETH Zurich, Switzerland"	"ETH Zürich, Switzerland. ETH Zurich, Switzerland"
-"Romain Lachat"	"SciencesPo Paris, France. Sciences Po, France. SciencesPo, France"	"SciencesPo Paris, France. Sciences Po, France. SciencesPo, France"
-"Ronja Sczepanski"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"
-"Ruben Bach"	"University of Mannheim, Germany. MZES, Germany"	"University of Mannheim, Germany. MZES, Germany"
-"Ruth Dassonneville"	"University of Montreal, Canada. Université de Montréal, Canada. Universite de Montreal, Canada. Université de Montreal, Canada"	"University of Montreal, Canada. Université de Montréal, Canada. Universite de Montreal, Canada. Université de Montreal, Canada"
-"Ryan Carlin"	"Georgia State University, USA. Georgia State, USA"	"Georgia State University, USA. Georgia State, USA"
-"Ryan Jablonski"	"LSE, United Kingdom. London School of Economics, United Kingdom"	"LSE, United Kingdom. London School of Economics, United Kingdom"
-"Sara B. Hobolt"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"
-"Sara Hobolt"	"London School of Economics and Political Science, United Kingdom. LSE, United Kingdom"	"London School of Economics and Political Science, United Kingdom. LSE, United Kingdom"
-"Sarah Gomm"	"ETH Zurich, Switzerland. University of Zurich, Switzerland"	"ETH Zurich, Switzerland. University of Zurich, Switzerland"
-"Scott Gates"	"University of Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway. PRIO, Norway"	"University of Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway. PRIO, Norway"
-"Sebastian Ludwicki-Ziegler"	"Stirling University, United Kingdom. University of Stirling, United Kingdom"	"Stirling University, United Kingdom. University of Stirling, United Kingdom"
-"Sebastian Schutte"	"Peace Research Institute Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway"	"Peace Research Institute Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway"
-"Sebastian Thieme"	"Institute for Advanced Study Toulouse, France. Institute for Advanced Study in Toulouse, France. institutde. forAdvanced Study, Toulouse, France"	"Institute for Advanced Study Toulouse, France. Institute for Advanced Study in Toulouse, France. institutde. forAdvanced Study, Toulouse, France"
-"Sebastien Rojon"	"Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium"	"Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium"
-"Selina Hofstetter"	"Tecnol´ogico de Monterrey, Mexico. Tecnologico de Monterrey, Mexico"	"Tecnol´ogico de Monterrey, Mexico. Tecnologico de Monterrey, Mexico"
-"Semih Cakir"	"Université de Montréal, Canada. University of Vienna, Austria"	"Université de Montréal, Canada. University of Vienna, Austria"
-"Sigrid Roßteutscher"	"Goethe University Frankfurt/Main, Germany. Goethe University Frankfurt am Main, Germany"	"Goethe University Frankfurt/Main, Germany. Goethe University Frankfurt am Main, Germany"
-"Silvia Decadri"	"Università degli Studi di Milano (UNIMI), Italy. Università degli Studi di Milano, Italy"	"Università degli Studi di Milano (UNIMI), Italy. Università degli Studi di Milano, Italy"
-"Silvia Pianta"	"RFF - CMCC European Institute on Economics and the Environment, Italy. RFF-CMCC European Institute on Economics and the Environment & European University Institute, Italy"	"RFF - CMCC European Institute on Economics and the Environment, Italy. RFF-CMCC European Institute on Economics and the Environment & European University Institute, Italy"
-"Simon Hug"	"Universit of Geneva, Switzerland. University of Geneva, Switzerland"	"Universit of Geneva, Switzerland. University of Geneva, Switzerland"
-"Simon T. Franzmann"	"Department for Democracy Research, University of Goettingen, Germany. University of Goettingen, Germany"	"Department for Democracy Research, University of Goettingen, Germany. University of Goettingen, Germany"
-"Sirianne Dahlum"	"University of Oslo, Norway. Oslo, Norway"	"University of Oslo, Norway. Oslo, Norway"
-"Sirus Dehdari"	"Stockholm University, Sweden. Stockholm University,, Sweden"	"Stockholm University, Sweden. Stockholm University,, Sweden"
-"Sivaram Cheruvu"	"University of Texas-Dallas, USA. University of Texas at Dallas, USA"	"University of Texas-Dallas, USA. University of Texas at Dallas, USA"
-"Sofia Vasilopoulou"	"King's College London, United Kingdom. King’s College London, United Kingdom"	"King's College London, United Kingdom. King’s College London, United Kingdom"
-"Sona Golder"	"Penn State University, USA. Pennsylvania State University, USA"	"Penn State University, USA. Pennsylvania State University, USA"
-"Stefan Müller"	"University College Dublin, Ireland. University College, Dublin, Ireland"	"University College Dublin, Ireland. University College, Dublin, Ireland"
-"Stefanie Bailer"	"University of Basel, Switzerland. University of Basel, Germany"	"University of Basel, Switzerland. University of Basel, Germany"
-"Sven Hegewald"	"ETH Zurich, Switzerland. ETH, Switzerland"	"ETH Zurich, Switzerland. ETH, Switzerland"
-"Sven-Oliver Proksch"	"University of Cologne, Germany. University of Cologne, Cologne Center for Comparative Politics, Germany"	"University of Cologne, Germany. University of Cologne, Cologne Center for Comparative Politics, Germany"
-"Tana Johnson"	"University of Wisconsin-Madison, USA. University of Wisconsin, USA"	"University of Wisconsin-Madison, USA. University of Wisconsin, USA"
-"Tarik Abou-Chadi"	"University of Oxford, United Kingdom. Oxford University, United Kingdom"	"University of Oxford, United Kingdom. Oxford University, United Kingdom"
-"Theres Matthieß"	"University of Trier, Germany. University of Trier, Netherlands"	"University of Trier, Germany. University of Trier, Netherlands"
-"Theresa Gessler"	"European University Viadrina, Germany. Europa Universität Viadrina, Germany"	"European University Viadrina, Germany. Europa Universität Viadrina, Germany"
-"Theresa Squatrito"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"	"London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom"
-"Thomas Bernauer"	"ETH Zurich, Switzerland. ETH-Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zurich, Switzerland. ETH-Zurich, Switzerland. ETH Zürich, Switzerland"
-"Thomas Hale"	"University of Oxford, United Kingdom. Oxford University, United Kingdom"	"University of Oxford, United Kingdom. Oxford University, United Kingdom"
-"Thomas Robinson"	"London School of Economics, United Kingdom. LSE, United Kingdom"	"London School of Economics, United Kingdom. LSE, United Kingdom"
-"Thomas Tichelbaecker"	"princeton university, USA. Princeton University, USA"	"princeton university, USA. Princeton University, USA"
-"Tolga Sinmazdemir"	"SOAS, United Kingdom. School of Oriental and African Studies SOAS, United Kingdom"	"SOAS, United Kingdom. School of Oriental and African Studies SOAS, United Kingdom"
-"Toni Rodon"	"Universitat Pompeu Fabra, Spain. Pompeu Fabra University, Spain"	"Universitat Pompeu Fabra, Spain. Pompeu Fabra University, Spain"
-"Valentina Consiglio"	"University of Zurich, Switzerland. University of Konstanz, Germany"	"University of Zurich, Switzerland. University of Konstanz, Germany"
-"Valerio Vignoli"	"University of Milan, Italy. Università degli Studi Milano, Italy"	"University of Milan, Italy. Università degli Studi Milano, Italy"
-"Vally Koubi"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"	"ETH Zurich, Switzerland. ETH Zürich, Switzerland"
-"Vered Porzycki"	"The Hebrew University of Jerusalem, Israel. The Hebrew University of jerusalem, Israel"	"The Hebrew University of Jerusalem, Israel. The Hebrew University of jerusalem, Israel"
-"Verena Reidinger"	"University of Zurich, Switzerland. Department of Political Science, University of Zurich, Switzerland"	"University of Zurich, Switzerland. Department of Political Science, University of Zurich, Switzerland"
-"Vicente Valentim"	"Nuffield College, University of Oxford, United Kingdom. University of Oxford, United Kingdom. University of Oxford (Nuffield College), United Kingdom"	"Nuffield College, University of Oxford, United Kingdom. University of Oxford, United Kingdom. University of Oxford (Nuffield College), United Kingdom"
-"Volha Charnysh"	"Massachusetts Institute of Technology, USA. MIT, USA"	"Massachusetts Institute of Technology, USA. MIT, USA"
-"Zachary Dickson"	"London School of Economics, United Kingdom. London School of Economics and Political Science, United Kingdom"	"London School of Economics, United Kingdom. London School of Economics and Political Science, United Kingdom"
-"Øyvind Skorge"	"Oslo New University College, Norway. Oslo New University College,, Norway"	"Oslo New University College, Norway. Oslo New University College,, Norway"
+author	affiliation	affiliation_fix
+Miceal Canavan	Aarhus, Denmark. Aarhus University, Denmark	Aarhus University, Denmark
+Niels Bjørn Grund Petersen	The Danish Center for Social Science Research / Aarhus University, Denmark. Danish Center for Social Science Research (VIVE), Denmark	Aarhus University, Denmark && Danish Center for Social Science Research (VIVE), Denmark
+Beltran Alejandro	The Alan Turing Institute, United Kingdom. Alan Turing Institute, United Kingdom	Alan Turing Institute, United Kingdom
+Robert Walker	Atkinson Graduate School of Management, WIllamette University, USA. Willamette University, USA	Atkinson Graduate School of Management, WIllamette University, USA
+Adrian del Rio	Berlin Social Science Centre, Germany. Berlin Social Science Centre, Germany, Germany	Berlin Social Science Centre, Germany
+Mariana Carvalho	Brown University, USA. UCSD, USA	Brown University, USA && UCSD, USA
+Markus Tepe	Carl von Ossietzky Universität Oldenburg, Germany. University of Oldenburg, Germany	Carl von Ossietzky Universität Oldenburg, Germany
+Isabelle Guinaudeau	CEE, Sciences Po, France. Center of European Studies and Comparative Politics, Sciences Po, France. Sciences Po Bordeaux, France. Sciences Po, France	CEE, Sciences Po, France && Sciences Po Bordeaux, France
+Marco Nicola Binetti	Center for Crisis Early Warning - Universität der Bundeswehr München, Germany. Universität der Bundeswehr München - CISS, Germany	Center for Crisis Early Warning - Universität der Bundeswehr München, Germany
+Konstantin Vössing	City, University of London, United Kingdom. City University of London, United Kingdom	City University of London, United Kingdom
+Agni Poullikka	City, University of London, United Kingdom. City University of London, United Kingdom	City University of London, United Kingdom
+Davide Morisi	Collegio Carlo Alberto, Italy. University of Southern Denmark, Denmark	Collegio Carlo Alberto, Italy && University of Southern Denmark, Denmark
+Hauke Licht	University of Cologne, Germany. University of Cologne, Cologne Center for Comparative Politics, Germany	Cologne Center for Comparative Politics, University of Cologne, Germany
+Nils Düpont	CRC 1342, University of Bremen, Germany. University of Bremen, Germany	CRC 1342, University of Bremen, Germany
+Simon T. Franzmann	Department for Democracy Research, University of Goettingen, Germany. University of Goettingen, Germany	Department for Democracy Research, University of Goettingen, Germany
+Verena Reidinger	University of Zurich, Switzerland. Department of Political Science, University of Zurich, Switzerland	Department of Political Science, University of Zurich, Switzerland
+Marine Casalis	ETH-Zurich, Switzerland. ETH Zurich, Switzerland	ETH Zürich, Switzerland
+Massimo Troncone	ETH, Switzerland. ETH Zurich, Switzerland	ETH Zürich, Switzerland
+Christian Freudlsperger	ETH Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Dominik Hangartner	ETH, Switzerland. ETH Zürich, Switzerland. ETH-Zurich, Switzerland. ETH Zurich, Switzerland. ETZ Zurich, Switzerland	ETH Zürich, Switzerland
+Florian Lichtin	ETH-Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Franziska Quoß	ETH Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Jan Freihardt	ETH Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Roberto Valli	ETH Zürich, Switzerland. ETH Zurich, Switzerland	ETH Zürich, Switzerland
+Ronja Sczepanski	ETH Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Sarah Gomm	ETH Zurich, Switzerland. University of Zurich, Switzerland	ETH Zürich, Switzerland
+Sven Hegewald	ETH Zurich, Switzerland. ETH, Switzerland	ETH Zürich, Switzerland
+Thomas Bernauer	ETH Zurich, Switzerland. ETH-Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Vally Koubi	ETH Zurich, Switzerland. ETH Zürich, Switzerland	ETH Zürich, Switzerland
+Elias Dinas	European University Institute, Italy. EUI, Italy	European University Institute, Italy
+Jonne Kamphorst	European University Institute, Italy. European university institute, Italy	European University Institute, Italy
+Kasia Nalewajko	European University Institute, Italy. Universidad Carlos III de Madrid, Spain	European University Institute, Italy && Universidad Carlos III de Madrid, Spain
+Gary Marks	European University Institute, Italy. University of North Carolina at Chapel Hill, USA. University of North Carolina, USA	European University Institute, Italy && University of North Carolina at Chapel Hill, USA
+Liesbet Hooghe	European University Institute, Italy. University of North Carolina at Chapel Hill, USA. University of North Carolina, USA	European University Institute, Italy && University of North Carolina at Chapel Hill, USA
+Theresa Gessler	European University Viadrina, Germany. Europa Universität Viadrina, Germany	European University Viadrina, Germany
+Filip Milacic	Friedrich Ebert Foundation; Democracy Institute, CEU, Austria. Friedrich Ebert Foundation; Democracy Institute	Friedrich Ebert Foundation && Democracy Institute, CEU, Austria
+Andreas Kotsadam	Frish Centre, Norway. Frisch Centre, Norway	Frisch Centre, Norway
+Erik Voeten	Georgetown, USA. Georgetown University, USA	Georgetown University, USA
+Ryan Carlin	Georgia State University, USA. Georgia State, USA	Georgia State University, USA
+Jan Schwalbach	GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany	GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany
+L. Constantin Wurthmann	GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany	GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany
+Marius Sältzer	Gesis Institute for the Social Sciences Mannheim, Germany. GESIS – Leibniz Institute for the Social Sciences, Germany. GESIS, Germany	GESIS – Leibniz Institute for the Social Sciences, Cologne, Germany
+Antonia Lang	Goethe University Frankfurt/Main, Germany. Goethe University Frankfurt am Main, Germany	Goethe University Frankfurt am Main, Germany
+Sigrid Roßteutscher	Goethe University Frankfurt/Main, Germany. Goethe University Frankfurt am Main, Germany	Goethe University Frankfurt am Main, Germany
+Gefjon Off	Gothenburg University, Department of Political Science, Sweden. Gothenburg University, Sweden	University of Gothenburg, Sweden
+Noam Gidron	hebrew university of jerusalem, Israel. Hebrew University of Jerusalem, Israel	Hebrew University of Jerusalem, Israel
+Mark Kayser	Hertie School, Germany. Hertie School, Berlin, Germany	Hertie School, Berlin, Germany
+Emily Frank	Hertie School, Germany. Berlin Institute for Empirical Integration and Migration Research (BIM), Humboldt University of Berlin, Germany. Humboldt University of Berlin, Germany	Hertie School, Germany && Berlin Institute for Empirical Integration and Migration Research (BIM), Humboldt University of Berlin, Germany
+Oguzhan Turkoglu	Hertie School, Germany. Hertie, Germany	Hertie School, Germany. Hertie, Germany
+Andrew Klassen	Humansurveys.org, USA	Humansurveys.org, USA
+Asli Unan	Humboldt University of Berlin, Germany. Humboldt University, Germany. Humboldt University Berlin, Germany	Humboldt University Berlin, Germany
+Felix Hartmann	HU Berlin, Germany. Humboldt University of Berlin, Germany	Humboldt University of Berlin, Germany
+Heike Klüver	HU Berlin, Germany. Humboldt-Universität zu Berlin, Germany. Humboldt University, Germany. Humboldt University of Berlin, Germany	Humboldt University of Berlin, Germany
+Lukas Stoetzer	Humboldt University, Germany. University of Witten/Herdecke, Germany	Humboldt University, Germany && University of Witten/Herdecke, Germany
+Ebru Ece Özbey	IMPRS-SCE, Germany. Max-Planck-Institut für Gesellschaftsforschung, Germany	IMPRS-SCE, Germany && Max-Planck-Institut für Gesellschaftsforschung, Germany
+Guido Tiemann	Institute for Advanced Studies, Vienna, Austria. Institute for Advanced Studies, Austria. Institute for Advanced Studie. Institute for Advanced Studies	Institute for Advanced Studies, Vienna, Austria
+Anne Degrave	Institute for Advanced Study in Toulouse, France. Institude for Advanced Study in Toulouse, France	Institute for Advanced Study in Toulouse, France
+Sebastian Thieme	Institute for Advanced Study Toulouse, France. Institute for Advanced Study in Toulouse, France. institutde. forAdvanced Study, Toulouse, France	Institute for Advanced Study in Toulouse, France
+Felicia Riethmüller	Department for Democracy Research, University of Goettingen, Germany. Institute for Democracy Research (IfDem), University of Göttingen, Germany. Department for Democracy Research (IfDem), University of Goettingen, Germany. University of Goettingen, Germany	Institute for Democracy Research (IfDem), University of Göttingen, Germany
+David Beck	Institute for Political Science, University of Bamberg, Germany. University of Bamberg, Germany	Institute for Political Science, University of Bamberg, Germany
+Mads Thau	Institute for Social Research Oslo, Norway. Institute for Social Research, Norway	Institute for Social Research Oslo, Norway
+Francesc Amat	Universitat de Barcelona, Spain. University of Barcelona - IPERG, Spain. University of Barcelona, Spain	IPERG, Universitat Autònoma de Barcelona, Spain
+Sofia Vasilopoulou	King's College London, United Kingdom. King’s College London, United Kingdom	King's College London, United Kingdom
+Anne Rasmussen	Kings College, United Kingdom. Kings College London, United Kingdom	Kings College London, United Kingdom
+Damien Bol	King's College London, United Kingdom. Kings College London, United Kingdom	Kings College London, United Kingdom
+Paul Thurner	LMU Munich, Germany. LMU Munich, Political Science, Germany	LMU Munich, Germany
+Boram Lee	London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Christopher Anderson	LSE, United Kingdom. London School of Economics and Political Science, United Kingdom	London School of Economics and Political Science, United Kingdom
+Denisa Kostovicova	LSE, United Kingdom. London School of Economics and Political Science, United Kingdom	London School of Economics and Political Science, United Kingdom
+Elliott Green	London School of Economics, United Kingdom. LSE, United Kingdom	London School of Economics and Political Science, United Kingdom
+James Morrison	London School of Economics & Political Science, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Kenneth Benoit	London School of Economics and Political Science, United Kingdom. LSE, United Kingdom	London School of Economics and Political Science, United Kingdom
+Liam Beiser-McGrath	London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Mathias Poertner	London School of Economics and Political Science, United Kingdom. LSE, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Ryan Jablonski	LSE, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Sara B. Hobolt	London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Sara Hobolt	London School of Economics and Political Science, United Kingdom. LSE, United Kingdom	London School of Economics and Political Science, United Kingdom
+Theresa Squatrito	London School of Economics and Political Science, United Kingdom. London School of Economics, United Kingdom	London School of Economics and Political Science, United Kingdom
+Thomas Robinson	London School of Economics, United Kingdom. LSE, United Kingdom	London School of Economics and Political Science, United Kingdom
+Zachary Dickson	London School of Economics, United Kingdom. London School of Economics and Political Science, United Kingdom	London School of Economics and Political Science, United Kingdom
+Alexander Wuttke	Ludwig Maximilian University of Munich, Germany. University of Munich, Germany	Ludwig Maximilian University of Munich, Germany && University of Munich, Germany
+Eva Wegner	Marburg University, Germany. Uni Marburg, Germany	Marburg University, Germany
+Volha Charnysh	Massachusetts Institute of Technology, USA. MIT, USA	Massachusetts Institute of Technology, USA
+Björn Bremer	Max Planck Institute for the Study of Societies, Germany. Max Planck, Germany	Max Planck Institute for the Study of Societies, Germany
+Ruben Bach	University of Mannheim, Germany. MZES, Germany	MZES - University of Mannheim, Germany
+Ricardo Massa	National Laboratory of Public Policy, Centro de Investigacion y Docencia Economicas (CIDE)., Mexico	National Laboratory of Public Policy, Centro de Investigacion y Docencia Economicas (CIDE), Mexico
+Leonid Peisakhin	New York University - Abu Dhabi, UAE. NYU Abu Dhabi, UAE	New York University - Abu Dhabi, UAE
+Catherine Hafer	NYU, USA. New York University, USA	New York University, USA
+Raymond Duch	University of Oxford, United Kingdom. Nuffield College, University of Oxford, United Kingdom	Nuffield College, University of Oxford, United Kingdom
+Vicente Valentim	Nuffield College, University of Oxford, United Kingdom. University of Oxford, United Kingdom. University of Oxford (Nuffield College), United Kingdom	Nuffield College, University of Oxford, United Kingdom
+Øyvind Skorge	Oslo New University College, Norway. Oslo New University College, Norway	Oslo New University College, Norway
+Giuliano Formisano	University of Oxford, United Kingdom. Oxford Internet Institute, United Kingdom	Oxford Internet Institute, University of Oxford, United Kingdom
+Sebastian Schutte	Peace Research Institute Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway	Peace Research Institute Oslo (PRIO), Norway
+Kevin Munger	Penn State, USA. Penn State, USA	Penn State, USA
+Sona Golder	Penn State University, USA. Pennsylvania State University, USA	Pennsylvania State University, USA
+Leticia Barbabela	Marburg University, Germany. Philipps-Universität Marburg, Germany	Philipps-Universität Marburg, Germany
+Toni Rodon	Universitat Pompeu Fabra, Spain. Pompeu Fabra University, Spain	Pompeu Fabra University, Spain
+Thomas Tichelbaecker	princeton university, USA. Princeton University, USA	Princeton University, USA
+Maurits Meijers	Radboud, Netherlands. Radboud University, Netherlands	Radboud University, Netherlands
+Silvia Pianta	RFF - CMCC European Institute on Economics and the Environment, Italy. RFF-CMCC European Institute on Economics and the Environment & European University Institute, Italy	RFF-CMCC European Institute on Economics and the Environment, Italy && European University Institute, Italy
+Katharina Lawall	University of London/Royal Holloway, United Kingdom. Royal Holloway/University of London, United Kingdom	Royal Holloway/University of London, United Kingdom
+Tolga Sinmazdemir	SOAS, United Kingdom. School of Oriental and African Studies SOAS, United Kingdom	School of Oriental and African Studies, United Kingdom
+Martial Foucault	Sciences Po, France. Science Po Paris, France	Science Po Paris, France
+Emiliano Grossman	Sciences Po, France. Sciences Po / CEE, France	Sciences Po / CEE, France
+Eline de Rooij	Simon Fraser University, Canada. Canada	Simon Fraser University, Canada
+Sirus Dehdari	Stockholm University, Sweden. Stockholm University, Sweden	Stockholm University, Sweden
+Selina Hofstetter	Tecnol´ogico de Monterrey, Mexico. Tecnologico de Monterrey, Mexico	Tecnologico de Monterrey, Mexico
+Alexandra Guisinger	Temple University, College of Liberal Arts, USA. Temple University, USA	Temple University, USA
+Vered Porzycki	The Hebrew University of Jerusalem, Israel. The Hebrew University of jerusalem, Israel	Hebrew University of Jerusalem, Israel
+Gail McElroy	Trinity College, Dublin, Ireland. Trinity College Dublin, Ireland	Trinity College Dublin, Ireland
+Niloufer Siddiqui	U. Albany, USA	University of Albany, USA
+Darrell Driver	U.S. Army War College, USA	U.S. Army War College, USA
+Ignacio Jurado	Universidad Carlos III de Madrid, Spain. University Carlos III- IC3JM, Spain. Carlos III University of Madrid, Spain	Universidad Carlos III de Madrid, Spain
+Riccardo Di Leo	Universidad Carlos III and Carlos III-Juan March Institute, Spain. Universidad Carlos III, Spain	Universidad Carlos III de Madrid, Spain && Carlos III-Juan March Institute, Spain
+Fedra Negri	Università degli Studi di Milano-Bicocca (UNIMIB), Italy. Università degli Studi di Milano - Bicocca, Italy	Università degli Studi di Milano - Bicocca, Italy
+Andrea Ceron	Dipartimento Scienze Sociali e Politiche - Università degli Studi di Milano, Italy. Università degli Studi di Milano, Italy	Università degli Studi di Milano, Italy
+Silvia Decadri	Università degli Studi di Milano (UNIMI), Italy. Università degli Studi di Milano, Italy	Università degli Studi di Milano, Italy
+Valerio Vignoli	University of Milan, Italy. Università degli Studi Milano, Italy	Università degli Studi di Milano, Italy
+Carol Galais	Autonomous University of Barcelona, Spain. Universitat Autònoma de Barcelona, Spain	Universitat Autònoma de Barcelona, Spain
+Daniel Favre	U. of Barcelona, Spain	Universitat Autònoma de Barcelona, Spain
+Enrique Hernández	Autonomous University of Barcelona, Spain. Universitat Autònoma de Barcelona, Spain. Universitat Autonoma de Barcelona, Spain	Universitat Autònoma de Barcelona, Spain
+Eva Anduiza	Universitat Autònoma de Barcelona, Spain. Universitat Autónoma de Barcelona, Spain	Universitat Autònoma de Barcelona, Spain
+Guillem Rico	Universitat Autònoma de Barcelona, Spain. Universitat Autonoma de Barcelona, Spain	Universitat Autònoma de Barcelona, Spain
+Gabriele Spilker	Universität Konstanz, Germany. University of Konstanz, Germany	University of Konstanz, Germany
+Joaquín Rozas-Bugueño	Universitat Pompeu Fabra, Spain. Universitat Pomepu Fabra, Spain	Universitat Pompeu Fabra, Spain
+Josep Maria Comellas	Universitat Pompeu Fabra, Spain. Universitat Pompeu Fabra, Spain	Universitat Pompeu Fabra, Spain
+Ruth Dassonneville	University of Montreal, Canada. Université de Montréal, Canada. Universite de Montreal, Canada. Université de Montreal, Canada	Université de Montréal, Canada
+Semih Cakir	Université de Montréal, Canada. University of Vienna, Austria	Université de Montréal, Canada && University of Vienna, Austria
+Emilien Paulis	Université du Luxembourg, Luxembourg. Université Libre de Bruxelles, Belgium	Université du Luxembourg, Luxembourg && Université Libre de Bruxelles, Belgium
+Davide Vittori	Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium	Université Libre de Bruxelles, Belgium
+Guido Panzano	Université libre de Bruxelles (ULB), Belgium. Université libre de Bruxelles, Belgium. ULB, Belgium	Université Libre de Bruxelles, Belgium
+Jean-Benoit Pilet	Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium	Université Libre de Bruxelles, Belgium
+Sebastien Rojon	Université libre de Bruxelles, Belgium. Université Libre de Bruxelles, Belgium	Université Libre de Bruxelles, Belgium
+Pedro Riera	Charles III University of Madrid, Spain. University Carlos III of Madrid, Spain. University Carlos III, Spain	Universidad Carlos III de Madrid, Spain
+Stefan Müller	University College Dublin, Ireland. University College, Dublin, Ireland	University College Dublin, Ireland
+Aparna Ravi	University College London, USA. University College London, United Kingdom	University College London, United Kingdom
+Markus Kollberg	University College London (UCL), United Kingdom. University College London, United Kingdom	University College London, United Kingdom
+Peter Dinesen	University College London, United Kingdom. University College London and University of Copenhagen, United Kingdom	University College London, United Kingdom && University of Copenhagen, Denmark
+Jihed Ncib	University College, Dublin, Ireland. University College Dublin, Ireland	University College, Dublin, Ireland
+Alessandro Del Ponte	University of Alabama, USA. The University of Alabama, USA	University of Alabama, USA
+Fabio Votta	University of Amsterdam, Netherlands. University of Amsterdam, Germany	University of Amsterdam, Netherlands
+Albert Falcó-Gimeno	Universitat de Barcelona, Spain. University of Barcelona, Spain	University of Barcelona, Spain
+Albert Solé-Ollé	U. of Barcelona, Spain	University of Barcelona, Spain
+Macarena Ares	University of Barcelona, Spain. Universitat de Barcelona, Spain	University of Barcelona, Spain
+Matteo Gamalerio	U. of Barcelona, Spain	University of Barcelona, Spain
+Stefanie Bailer	University of Basel, Switzerland. University of Basel, Germany	University of Basel, Switzerland
+Marta Eidheim	University of Bergen, Norway. Univresity of Bergen, Norway	University of Bergen, Norway
+Lise Rakner	University of Bergen, Norway. Chr. Michelsens Institute, Norway	University of Bergen, Norway && Chr. Michelsens Institute, Norway
+Indridi Indridason	Univ. of California, Riverside, USA. University of California Riverside, USA	University of California Riverside, USA
+Sven-Oliver Proksch	University of Cologne, Germany. University of Cologne, Cologne Center for Comparative Politics, Germany	University of Cologne, Cologne Center for Comparative Politics, Germany
+Kristina Aleksandrovna Pedersen	University of Copenhagen, Department of Political Science, Denmark. University of Copenhagen, Denmark	University of Copenhagen, Denmark
+Achim Goerres	University of Duisburg-Essen, Germany. Universität Duisburg-Essen, Germany	University of Duisburg-Essen, Germany
+Ju Yeon Park	University of Essex, United Kingdom. Essex, United Kingdom	University of Essex, United Kingdom
+Simon Hug	Universit of Geneva, Switzerland. University of Geneva, Switzerland	University of Geneva, Switzerland
+Anja Neundorf	University of Glasgow, United Kingdom. Glasgow, United Kingdom	University of Glasgow, United Kingdom
+Aykut Ozturk	Glasgow, United Kingdom. University of Glasgow, United Kingdom	University of Glasgow, United Kingdom
+Fabio Angiolillo	University of Gothenburg, Sweden. Gothenburg University, Sweden	University of Gothenburg, Sweden
+Luca Versteegen	University of Gothenburg, Sweden. Gothenburg University, Sweden	University of Gothenburg, Sweden
+Nadine O'Shea	Greifswald University, Germany. University of Greifswald, Germany	University of Greifswald, Germany
+Gerald Schneider	University of Konstanz, Germany. Universit of Konstanz, Germany	University of Konstanz, Germany
+David Schweizer	University of Mannheim, Germany. University of Mannheim, Georgia	University of Mannheim, Germany
+Jan Menzner	University of Mannheim, Germany. University of Mannhein, Germany	University of Mannheim, Germany
+João Areal	University of Mannhein, Germany. University of Mannheim, Germany	University of Mannhein, Germany
+Carl Henrik Knutsen	University of Oslo, Norway. University of Oslo (UiO), Norway	University of Oslo, Norway
+Philipp Lutscher	University of Oslo (UiO), Norway. University of Oslo, Norway	University of Oslo, Norway
+Sirianne Dahlum	University of Oslo, Norway. Oslo, Norway	University of Oslo, Norway
+Scott Gates	University of Oslo, Norway. Peace Research Institute Oslo (PRIO), Norway. PRIO, Norway	University of Oslo, Norway && Peace Research Institute Oslo (PRIO), Norway
+Alexander Kuo	University of Oxford, United Kingdom. Oxford Unviersity, United Kingdom. Oxford University, United Kingdom	University of Oxford, United Kingdom
+Andrea Ruggeri	andrea.ruggeri@politics.ox.ac.uk, United Kingdom	University of Oxford, United Kingdom
+Tarik Abou-Chadi	University of Oxford, United Kingdom. Oxford University, United Kingdom	University of Oxford, United Kingdom
+Thomas Hale	University of Oxford, United Kingdom. Oxford University, United Kingdom	University of Oxford, United Kingdom
+Marco Pastor Mayo	University of Oxford, Spain. University of Barcelona, Spain	University of Oxford, United Kingdom && University of Barcelona, Spain
+Robert Huber	University of Salzburg, Austria. University of Reading, United Kingdom	University of Salzburg, Austria && University of Reading, United Kingdom
+Eri Bertsou	University of St Gallen, Switzerland. St Gallen, Switzerland. University of St.Gallen, Switzerland	University of St Gallen, Switzerland
+Matthias Haslberger	University of St Gallen, Switzerland. University of St Gallen, Switzerland	University of St Gallen, Switzerland
+Sebastian Ludwicki-Ziegler	Stirling University, United Kingdom. University of Stirling, United Kingdom	University of Stirling, United Kingdom
+Carlos Mendez	Strathclyde University, United Kingdom. University of Strathclyde, United Kingdom	University of Strathclyde, United Kingdom
+Despina Alexiadou	Strathclyde, United Kingdom. University of Strathclyde, United Kingdom	University of Strathclyde, United Kingdom
+Patrick Bayer	University of Strathclyde, United Kingdom. Strathclyde University, United Kingdom	University of Strathclyde, United Kingdom
+Sivaram Cheruvu	University of Texas-Dallas, USA. University of Texas at Dallas, USA	University of Texas at Dallas, USA
+Theres Matthieß	University of Trier, Germany. University of Trier, Netherlands	University of Trier, Germany
+Janne Tukiainen	Turku University, Finland. University of Turku, Finland	University of Turku, Finland
+Lena Maria Huber	University of Vienna, Austria. MZES, University of Mannheim, Germany	University of Vienna, Austria && MZES, University of Mannheim, Germany
+Regina Goodnow	University of Wisconsin - La Crosse, USA. University of Wisconsin, USA	University of Wisconsin - La Crosse, USA
+Tana Johnson	University of Wisconsin-Madison, USA. University of Wisconsin, USA	University of Wisconsin-Madison, USA
+Nils-Christian Bormann	Witten/Herdecke University, Germany. University of Witten/Herdecke, Germany	University of Witten/Herdecke, Germany
+Diane Bolet	University of Zurich, Switzerland. University of Zurich, Swaziland	University of Zurich, Switzerland
+Valentina Consiglio	University of Zurich, Switzerland. University of Konstanz, Germany	University of Zurich, Switzerland && University of Konstanz, Germany
+Gudlaug Olafsdottir	Uppsala University, Sweden. University of Uppsala, Sweden	Uppsala University, Sweden
+Bradley Smith	Vanderbilt University, USA. Vanderbilt, USA	Vanderbilt University, USA
+Erin York	Vanderbilt University, USA. Vanderbilt, USA	Vanderbilt University, USA
+Philipp Lutz	Vrije Universiteit Amsterdam, Netherlands. VU University Amsterdam, Netherlands	Vrije Universiteit Amsterdam, Netherlands
+Jacob Montgomery	Washington University in St Louis, USA. Washington University in Saint Louis, USA. Wasington University in Saint Louis, USA	Washington University in Saint Louis, USA
+Daniel Saldivia Gonzatti	WZB Berlin Social Science Center, Germany. WZB Berlin, Germany	WZB Berlin Social Science Center, Germany
+Pola Lehmann	WZB Berlin Social Science Center, Germany. WZB Berlin Social Science Center, Germany	WZB Berlin Social Science Center, Germany
+Martin Elff	Zeppelin University, Germany. Zeppelin Universität, Germany	Zeppelin University, Germany

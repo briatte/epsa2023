@@ -221,7 +221,7 @@ if (!fs::file_exists(f)) {
 
 }
 
-# apply fixes -- [NOTE] stopped at Joaquín Rozas-Bugueño
+# apply fixes (after manual fixing on Google Sheets)
 d <- readr::read_tsv(f, col_types = "ccc") %>%
   right_join(d, by = c("author", "affiliation")) %>%
   mutate(affiliation = if_else(!is.na(affiliation_fix), affiliation_fix, affiliation)) %>%
