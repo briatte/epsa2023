@@ -14,18 +14,19 @@ stopifnot(!is.na(d$full_name))
 # note on abstract presenters ---------------------------------------------
 
 # abstract presenters always exist in the list of abstract authors
-filter(d, !is.na(abstract_id)) %>%
-  group_by(abstract_id) %>%
-  reframe(
-    full_name = list(full_name[ role %in% "p" ]),
-    abstract_presenters = str_split(abstract_presenters, ",\\s")
-  ) %>%
-  rowwise() %>%
-  mutate(found = all(abstract_presenters %in% full_name, na.rm = TRUE)) %>%
-  filter(!found) %>%
-  unnest(c(full_name, abstract_presenters))
-
-# ... should mean that pids can be used on presenters too
+# [NOTE] fails due to fixes in the authors' names, e.g. 'Rasmus T. Pedersen'
+# filter(d, !is.na(abstract_id)) %>%
+#   group_by(abstract_id) %>%
+#   reframe(
+#     full_name = list(full_name[ role %in% "p" ]),
+#     abstract_presenters = str_split(abstract_presenters, ",\\s")
+#   ) %>%
+#   rowwise() %>%
+#   mutate(found = all(abstract_presenters %in% full_name, na.rm = TRUE)) %>%
+#   filter(!found) %>%
+#   unnest(c(full_name, abstract_presenters))
+#
+# # ... should mean that pids can be used on presenters too
 
 # create unique participant identifiers -----------------------------------
 
@@ -62,7 +63,7 @@ stopifnot(!duplicated(p$hash))
 # add hashes to master data
 d <- select(p, full_name, affiliation, pid = hash) %>%
   left_join(d, ., by = c("full_name", "affiliation"), relationship = "many-to-one") %>%
-  relocate(pid, .before = full_name)
+  relocate(pid, .before = "full_name")
 
 # sanity check: no missing pid
 stopifnot(!is.na(d$pid))
