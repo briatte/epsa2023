@@ -6,7 +6,7 @@ library(tidyverse)
 
 p <- readr::read_tsv("data/participants.tsv", col_types = "ccccc")
 
-d <- readr::read_tsv("data/sessions.tsv", col_types = "ccccccccc") %>%
+d <- readr::read_tsv("data/sessions.tsv", col_types = cols(.default = "c")) %>%
   full_join(select(filter(p, role == "p"), author, affiliation, abstract_id),
             by = "abstract_id")
 

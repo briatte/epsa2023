@@ -43,6 +43,9 @@ for (i in f) {
     session_track = html_nodes(h, xpath = "//span[text()='Track']/..") %>%
       html_text() %>%
       na_if_empty(),
+    session_type = html_nodes(h, xpath = "//span[text()='Presentation type']/..") %>%
+      html_text() %>%
+      na_if_empty(),
     # 'empty' on special panels (will be in `session_ref` instead)
     session_title = html_text(html_nodes(h, "header h1")) %>%
       na_if_empty(),
@@ -85,6 +88,7 @@ d <- full_join(d, a, by = "session_id", relationship = "many-to-many") %>%
   mutate(
     session_id = str_extract(session_id, "\\d+"),
     session_track = str_remove(session_track, "^Track"),
+    session_type = str_remove(session_type, "^Presentation type"),
     session_title = if_else(is.na(session_title), session_ref, session_title),
     session_ref = if_else(session_ref == session_title, NA, session_ref),
     abstract_id = str_extract(abstract_id, "\\d+$"),
