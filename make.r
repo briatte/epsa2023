@@ -29,7 +29,7 @@ source("06-pids.r")
 
 # conclude ----------------------------------------------------------------
 
-d <- readr::read_tsv("data/program.tsv", col_types = "ccccccccccccc")
+d <- readr::read_tsv("data/program.tsv", col_types = cols(.default = "c"))
 
 cat(
   "\n-", n_distinct(d$session_id), "panels (with papers)",

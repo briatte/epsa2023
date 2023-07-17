@@ -222,7 +222,7 @@ if (!fs::file_exists(f)) {
 }
 
 # apply fixes (after manual fixing on Google Sheets)
-d <- readr::read_tsv(f, col_types = "ccc") %>%
+d <- readr::read_tsv(f, col_types = cols(.default = "c")) %>%
   right_join(d, by = c("author", "affiliation")) %>%
   mutate(affiliation = if_else(!is.na(affiliation_fix), affiliation_fix, affiliation)) %>%
   select(-affiliation_fix)
@@ -230,8 +230,8 @@ d <- readr::read_tsv(f, col_types = "ccc") %>%
 cat(f, ":", n_distinct(d$affiliation), "affiliations (post-fixes)\n")
 
 # sanity check: we have authors for all abstracts
-a <- read_tsv("data/abstracts.tsv", col_types = cols())$abstract_id
-stopifnot(unique(as.character(a)) %in% unique(d$abstract_id[ d$role == "p" ]))
+a <- read_tsv("data/abstracts.tsv", col_types = cols(.default = "c"))
+stopifnot(unique(a$abstract_id) %in% unique(d$abstract_id[ d$role == "p" ]))
 
 # export ------------------------------------------------------------------
 

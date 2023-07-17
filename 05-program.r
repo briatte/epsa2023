@@ -4,7 +4,7 @@
 
 library(tidyverse)
 
-p <- readr::read_tsv("data/participants.tsv", col_types = "ccccc")
+p <- readr::read_tsv("data/participants.tsv", col_types = cols(.default = "c"))
 
 d <- readr::read_tsv("data/sessions.tsv", col_types = cols(.default = "c")) %>%
   full_join(select(filter(p, role == "p"), author, affiliation, abstract_id),
@@ -64,7 +64,8 @@ d <- select(d, starts_with("session")) %>%
 # assemble full programme -------------------------------------------------
 
 # add abstracts
-a <- read_tsv("data/abstracts.tsv", col_types = "ccccc")
+a <- read_tsv("data/abstracts.tsv", col_types = cols(.default = "c")) %>%
+  select(-abstract_presenters) # added earlier
 
 # `full_join` because `d` and `p` have exactly the same list of `session_id`
 d <- full_join(d, p, by = "session_id") %>%
