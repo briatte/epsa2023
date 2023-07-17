@@ -7,8 +7,10 @@ library(tidyverse)
 p <- readr::read_tsv("data/participants.tsv", col_types = cols(.default = "c"))
 
 d <- readr::read_tsv("data/sessions.tsv", col_types = cols(.default = "c")) %>%
-  full_join(select(filter(p, role == "p"), author, affiliation, abstract_id),
-            by = "abstract_id")
+  full_join(
+    select(filter(p, role == "p"), author, affiliation, presenter, abstract_id),
+    by = "abstract_id"
+  )
 
 # sanity checks: session identifiers are never missing
 stopifnot(!is.na(d$session_id))
@@ -48,7 +50,7 @@ p <- bind_rows(
     arrange(full_name, session_id)
   ,
   # authors (presenters)
-  select(d, session_id, full_name = author, affiliation, abstract_id) %>%
+  select(d, session_id, full_name = author, affiliation, presenter, abstract_id) %>%
     # next lines not required: authors do not repeat and are never missing
     # distinct() %>%
     # filter(is.na(full_name))

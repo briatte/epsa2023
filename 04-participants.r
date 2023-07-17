@@ -81,6 +81,29 @@ filter(count(d, author, sort = TRUE), n > 1)
 # fix the issue, which removes ~ 800 rows
 d <- distinct(d)
 
+# identify abstract presenters --------------------------------------------
+
+# [NOTE] we have to do this before fixing names (alongside affiliations) below,
+# otherwise the fixes might disrupt matching `author` and `abstract_presenters`
+
+# sanity check: all abstract presenters found in authors
+a <- read_tsv("data/abstracts.tsv", col_types = cols(.default = "c")) %>%
+  pull(abstract_presenters) %>%
+  str_split(",\\s") %>%
+  unlist() %>%
+  unique()
+
+stopifnot(a %in% unique(d$author))
+
+d <- read_tsv("data/abstracts.tsv", col_types = cols(.default = "c")) %>%
+  select(abstract_id, abstract_presenters) %>%
+  right_join(d, by = "abstract_id") %>%
+  mutate(presenter = str_detect(abstract_presenters, author),
+         presenter = if_else(presenter, "y", "n")) %>%
+  select(-abstract_presenters)
+
+# fix affiliations --------------------------------------------------------
+
 # affiliations are never missing for authors (presenters), ...
 filter(d, role == "p", is.na(affiliation))
 
